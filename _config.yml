@@ -1,22 +1,39 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: Popey's Blog
-email: popey456963@debenclipper.com
-description: > # this means to ignore newlines until "baseurl:"
+url: "https://popey456963.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+baseurl: "/blog" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
+#timezone: Asia/Chongqing
+description: >
   A 16 year olds blog where he talks about programming, web development
   and living life as a child.  I'm currently working with subjectrefresh.info
   to try to create a better education for all, whilst also providing developer
   tools.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://popey456963.github.io" # the base hostname & protocol for your site
-twitter_username: popey456963
-github_username:  popey456963
+# Your information
+email: 
+author: Popey Gilbert
+avatar: "http://i.imgur.com/ZHDKG23.jpg"
+profile: An Avid Programmer.
+#twitter_username: twitter_username
+#github_username:  github_username
+
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
+#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
+
+permalink: /archivers/:title
+gems:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
 
 # Build settings
+paginate: 5
+paginate_path: "page:num"
+
+highlighter: rouge
 markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
