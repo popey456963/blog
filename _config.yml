@@ -1,0 +1,22 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Popey's Blog
+email: popey456963@debenclipper.com
+description: > # this means to ignore newlines until "baseurl:"
+  A 16 year olds blog where he talks about programming, web development
+  and living life as a child.  I'm currently working with subjectrefresh.info
+  to try to create a better education for all, whilst also providing developer
+  tools.
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://popey456963.github.io" # the base hostname & protocol for your site
+twitter_username: popey456963
+github_username:  popey456963
+
+# Build settings
+markdown: kramdown
