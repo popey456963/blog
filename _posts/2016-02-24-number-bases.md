@@ -117,7 +117,7 @@ $$
 
 #### **More about binary numbers**
 
-In $1001 111$, the first $1$ is the most significant bit (**MSB**), and the last $1$ is the least significant bit (**LSB**). This example is also an unsigned binary integer. This means that the kind of number this is is never specified.
+In $$1001 111$$, the first $$1$$ is the most significant bit (**MSB**), and the last $$1$$ is the least significant bit (**LSB**). This example is also an unsigned binary integer. This means that the kind of number this is is never specified.
 
 > **Note**
 > The type of binary number needs to be specified if you are using anything other than an unsigned binary integer, because pure binary numbers are ambiguous.
@@ -149,25 +149,28 @@ $$
 
 #### **Numbers with a fractional part**
 
-Often, calculations produce numbers that have fractional parts, such as $5\div3$. The decimal system is very similar to the binary system.:
+Often, calculations produce numbers that have fractional parts, such as $$5\div3$$. The decimal system is very similar to the binary system.:
 Decimal:
-|$100$|$10$|$1$|$.$|$\frac{1}{10}$|$\frac{1}{100}$|
+
+|$$100$$|$$10$$|$$1$$|$$.$$|$$\frac{1}{10}$$|$$\frac{1}{100}$$|
 |-|-|-|-|-|-|
-|$2$|$5$|$6$|$.$|$7$|$1$|
+|$$2$$|$$5$$|$$6$$|$$.$$|$$7$$|$$1$$|
 
 Binary:
-|$16$|$8$|$4$|$2$|$1$|$.$|$\frac{1}{2}$|$\frac{1}{4}$|$\frac{1}{8}$|
+
+|$$16$$|$$8$$|$$4$$|$$2$$|$$1$$|$$.$$|$$\frac{1}{2}$$|$$\frac{1}{4}$$|$$\frac{1}{8}$$|
 |-|-|-|-|-|-|-|-|-|
-|$1$|$1$|$0$|$1$|$0$|$.$|$1$|$0$|$1$|
+|$$1$$|$$1$$|$$0$$|$$1$$|$$0$$|$$.$$|$$1$$|$$0$$|$$1$$|
 
 >**Note**
->In the binary example, it was assumed that the 3 LSBs were the fractional part becuase in binary, there is no symbol for "$.$" and so the position of the "$.$" must be assumed. This assumption is known as **fixed point coding**.
+>In the binary example, it was assumed that the 3 LSBs were the fractional part becuase in binary, there is no symbol for "$$.$$" and so the position of the "$$.$$" must be assumed. This assumption is known as **fixed point coding**.
 
 We can also use 2's compliment with this fixed point coding.
 eg:
-|$-16$|$8$|$4$|$2$|$1$|$.$|$\frac{1}{2}$|$\frac{1}{4}$|$\frac{1}{8}$|
+
+|$$-16$$|$$8$$|$$4$$|$$2$$|$$1$$|$$.$$|$$\frac{1}{2}$$|$$\frac{1}{4}$$|$$\frac{1}{8}$$|
 |-|-|-|-|-|-|-|-|-|
-|$1$|$1$|$0$|$1$|$0$|$.$|$1$|$0$|$1$|
+|$$1$$|$$1$$|$$0$$|$$1$$|$$0$$|$$.$$|$$1$$|$$0$$|$$1$$|
 
 #### **Floating point form**
 
@@ -176,7 +179,7 @@ $$
 A\times10^8
 $$
 
-A similar notation is used when 2's compliment is used to to represent signed numbers that range from small to large:  M$\times$Base$^E$
+A similar notation is used when 2's compliment is used to to represent signed numbers that range from small to large:  M$$\times$$Base$$^E$$
 
 ##### **Floating points in binary**
 
@@ -185,7 +188,7 @@ $$
 3.141\times10^3
 $$
 
-The "$3.141$" is known as the *Mantissa* and the "$\times10^3$" is known as the exponent. So say there was a 32 bit system, the mantissa would be 24 bits and the exponent would be 8 bits.
+The "$$3.141$$" is known as the *Mantissa* and the "$$\times10^3$$" is known as the exponent. So say there was a 32 bit system, the mantissa would be 24 bits and the exponent would be 8 bits.
 
 >**Recap of 2's compliment**
 >If it is positive, convert to binary normally.
@@ -194,16 +197,16 @@ The "$3.141$" is known as the *Mantissa* and the "$\times10^3$" is known as the 
 $$
 \overset{\mathsf{Mantissa}}{\overset{-2^{0}}{0}\ \overset{•}{}\ \overset{2^{-1}}{1}\ \overset{2^{-2}}{1}\ \overset{2^{-3}}{0}\ \overset{2^{-4}}{1}\ \overset{2^{-5}}{0}}\ \ \ \ \ \ \ \ \overset{\mathsf{Exponent}}{\overset{-2^3}{0}\ \overset{2^2}{1}\ \overset{2^1}{0}\ \overset{2^0}{1}}
 $$
-This can be written as $0.11010\times10^{0101}$.
-The exponent evaluates to $+5_{10}$
+This can be written as $$0.11010\times10^{0101}$$.
+The exponent evaluates to $$+5_{10}$$
 This means that the binary point is moved 5 places to the right:
 $$
 0.\overset{↷}{1}\overset{↷}{1}\overset{↷}{0}\overset{↷}{1}\overset{↷}{0}_2 = 011010.0_2 \mathsf{\ or\ just\ }011010_2
 $$
-Which evaluates to $16 + 8 + 2 = 26_{10}$
+Which evaluates to $$16 + 8 + 2 = 26_{10}$$
 
 It is also easy to convert back:
-You simply convert the decimal number to binary. You then work out how many places you need to move the binary point to move it to before the MSB. The "$.$" is implied after the MSB.
+You simply convert the decimal number to binary. You then work out how many places you need to move the binary point to move it to before the MSB. The "$$.$$" is implied after the MSB.
 
 Negative mantissas can also be used:
 $$
@@ -213,17 +216,17 @@ So the point is implied after the MSB:
 $$
 \overset{\mathsf{Mantissa}}{\overset{-2^{0}}{1}\ \overset{•}{}\ \overset{2^{-1}}{1}\ \overset{2^{-2}}{0}\ \overset{2^{-3}}{0}\ \overset{2^{-4}}{1}\ \overset{2^{-5}}{1}}\ \ \ \ \ \ \ \ \overset{\mathsf{Exponent}}{\overset{-2^3}{0}\ \overset{2^2}{0}\ \overset{2^1}{1}\ \overset{2^0}{1}}
 $$
-The exponent moves the binary point $11_2$ or $3_{10}$ positions to the right:
+The exponent moves the binary point $$11_2$$ or $$3_{10}$$ positions to the right:
 $$
 \overset{\mathsf{Mantissa}}{\overset{-2^{3}}{1}\ \overset{2^{2}}{1}\ \overset{2^{1}}{0}\ \overset{2^{0}}{0}\ \overset{•}{}\ \overset{2^{-1}}{1}\ \overset{2^{-2}}{1}}\ \ \ \ \ \ \ \ \overset{\mathsf{Exponent}}{\overset{-2^3}{0}\ \overset{2^2}{0}\ \overset{2^1}{1}\ \overset{2^0}{1}}
 $$
-Which equates to $1100.11_2$ or $-3.25_{10}$
+Which equates to $$1100.11_2$$ or $$-3.25_{10}$$
 
-#### Converting from unsigned decimal numbers to unsigned binary
+#### **Converting from unsigned decimal numbers to unsigned binary**
 
 With integers this is easy:$$15_{10} \to 1111_2$$And with some decimal:
 $$15.625_{10} \to 1111.101_2\ \ \ =\ \ \ .\overset{0.5}{1}\ \overset{0.25}{0}\ \overset{0.125}{0}$$But with others:
-$$15.6_{10} \to 1111.1010\dots_2$$Which has to be rounded and when converted back $\neq15.6$.
+$$15.6_{10} \to 1111.1010\dots_2$$Which has to be rounded and when converted back $$\neq15.6$$.
 
 >**Note**
 >Converting decimal numbers to fixed point unsigned binary introduces errors.
