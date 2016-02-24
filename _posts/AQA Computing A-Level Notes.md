@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Style Test"
-date:   1970-01-01 08:00
-categories: jekyll
-permalink: /archivers/test
+title:  "AQA Computing A-Level Notes"
+date:   2016-02-24 12:11
+categories:  [Computing, AQA, A-Level]
+permalink: /archive/test
 ---
 
 This is just a style test post, filled with LoremIpsue. Feel free to delete the file.

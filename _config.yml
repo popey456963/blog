@@ -21,7 +21,7 @@ profile: An Avid Programmer.
 #disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
 #duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
-permalink: /archivers/:title
+permalink: /archive/:title
 gems:
  - jekyll-paginate
  - jekyll-gist
