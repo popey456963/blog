@@ -19,16 +19,16 @@ In each number system, we count from 0 up to the maximum value in a single digit
 eg in decimal:
 
 ~~~
-0
-1
-2
-3
-4
-5
-6
-7
-8
-9
+                        0
+                        1
+                        2
+                        3
+                        4
+                        5
+                        6
+                        7
+                        8
+                        9
 ~~~
 
 When we reach a maximum in one digit, we start a new column of digits and reset the first column.
