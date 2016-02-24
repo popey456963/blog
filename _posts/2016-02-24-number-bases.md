@@ -209,24 +209,40 @@ It is also easy to convert back:
 You simply convert the decimal number to binary. You then work out how many places you need to move the binary point to move it to before the MSB. The "$$.$$" is implied after the MSB.
 
 Negative mantissas can also be used:
+
 $$
 \overset{\mathsf{Mantissa}}{\overset{-2^{0}}{1}\ \overset{2^{-1}}{1}\ \overset{2^{-2}}{0}\ \overset{2^{-3}}{0}\ \overset{2^{-4}}{1}\ \overset{2^{-5}}{1}}\ \ \ \ \ \ \ \ \overset{\mathsf{Exponent}}{\overset{-2^3}{0}\ \overset{2^2}{0}\ \overset{2^1}{1}\ \overset{2^0}{1}}
 $$
+
 So the point is implied after the MSB:
+
 $$
 \overset{\mathsf{Mantissa}}{\overset{-2^{0}}{1}\ \overset{•}{}\ \overset{2^{-1}}{1}\ \overset{2^{-2}}{0}\ \overset{2^{-3}}{0}\ \overset{2^{-4}}{1}\ \overset{2^{-5}}{1}}\ \ \ \ \ \ \ \ \overset{\mathsf{Exponent}}{\overset{-2^3}{0}\ \overset{2^2}{0}\ \overset{2^1}{1}\ \overset{2^0}{1}}
 $$
+
 The exponent moves the binary point $$11_2$$ or $$3_{10}$$ positions to the right:
+
 $$
 \overset{\mathsf{Mantissa}}{\overset{-2^{3}}{1}\ \overset{2^{2}}{1}\ \overset{2^{1}}{0}\ \overset{2^{0}}{0}\ \overset{•}{}\ \overset{2^{-1}}{1}\ \overset{2^{-2}}{1}}\ \ \ \ \ \ \ \ \overset{\mathsf{Exponent}}{\overset{-2^3}{0}\ \overset{2^2}{0}\ \overset{2^1}{1}\ \overset{2^0}{1}}
 $$
+
 Which equates to $$1100.11_2$$ or $$-3.25_{10}$$
 
 #### **Converting from unsigned decimal numbers to unsigned binary**
 
-With integers this is easy:$$15_{10} \to 1111_2$$And with some decimal:
-$$15.625_{10} \to 1111.101_2\ \ \ =\ \ \ .\overset{0.5}{1}\ \overset{0.25}{0}\ \overset{0.125}{0}$$But with others:
-$$15.6_{10} \to 1111.1010\dots_2$$Which has to be rounded and when converted back $$\neq15.6$$.
+With integers this is easy:
+
+$$15_{10} \to 1111_2$$
+
+And with some decimal:
+
+$$15.625_{10} \to 1111.101_2\ \ \ =\ \ \ .\overset{0.5}{1}\ \overset{0.25}{0}\ \overset{0.125}{0}$$
+
+But with others:
+
+$$15.6_{10} \to 1111.1010\dots_2$$
+
+Which has to be rounded and when converted back $$\neq15.6$$.
 
 >**Note**
 >Converting decimal numbers to fixed point unsigned binary introduces errors.
