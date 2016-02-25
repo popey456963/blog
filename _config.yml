@@ -13,15 +13,16 @@ email:
 author: Popey Gilbert
 avatar: "https://i.imgur.com/z4vT78N.png"
 profile: An Avid Programmer.
-#twitter_username: twitter_username
-#github_username:  github_username
+twitter_username: popey456963
+github_username: popey456963
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it
 #disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
 #duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
-permalink: /archivers/:title
+permalink: /archive/:title
+
 gems:
  - jekyll-paginate
  - jekyll-gist
@@ -29,7 +30,7 @@ gems:
 
 # Build settings
 paginate: 5
-paginate_path: "/blog/page:num"
+paginate_path: "/page:num"
 
 highlighter: rouge
 markdown: kramdown

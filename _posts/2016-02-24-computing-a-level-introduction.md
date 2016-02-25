@@ -27,8 +27,8 @@ This is a concise yet thorough look at the AQA A-Level Computing course curated 
       + [Unsigned decimal representation](./number-bases#converting-from-unsigned-decimal-numbers-to-unsigned-binary)
       + [Research task](./number-bases#research-task)
    + [Information coding systems](./information-coding-systems)
-   + Error checking and correction
-   + Bit-mapped graphics
+   + [Error checking and correction](./error-checking-and-correction)
+   + [Bitmap graphics](./bitmap-graphics)
 2. Pseudocode
    + Variables and CONSTANTS
       + Data types
