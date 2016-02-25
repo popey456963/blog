@@ -34,7 +34,7 @@ layout: default
   {% endif %}
   <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | replace:'/page','/blog/blog/page' }}" class="next">NEXT</a>
+    <a href="{{ paginator.next_page_path | replace:'/page','/blog/page' }}" class="next">NEXT</a>
   {% else %}
     <span class="next ">NEXT</span>
   {% endif %}
