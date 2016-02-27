@@ -6,31 +6,31 @@ categories: [Node.JS, JavaScript, Project]
 permalink: /archive/setting-up-a-url-shortener
 ---
 
-I admit it, yesterday, I built yet another URL shortener with some friends of mine from [Subject Refresh](subjectrefresh.info).  Despite most URL shorteners being detrimental to society, with them disappearing and [taking massive sections of the internet](http://archiveteam.org/index.php?title=URLTeam#Dead_or_Broken) with them, we thought we'd add [yet another one](subr.pw) to see how well our team worked together.  
+I admit it, yesterday, I built yet another URL shortener with some friends of mine from [Subject Refresh](http://subjectrefresh.info).  Despite most URL shorteners being detrimental to society, with them disappearing and [taking massive sections of the internet](http://archiveteam.org/index.php?title=URLTeam#Dead_or_Broken) with them, we thought we'd add [yet another one](http://subr.pw) to see how well our team worked together.  
 
 We managed to buy the domain, setup the server and host our website in *under an hour*.  This shocked us as we had never done anything in such a short timeframe before.  We seperated jobs as follows:
 
 |Team Member|Main Job|
 |---|---|
-|[Miles Budden](milesbudden.com)|Setting up the domain name.|
+|[Miles Budden](http://milesbudden.com)|Setting up the domain name.|
 |[Finnian Andersson](http://finnian.io/)|Setting up the server and connecting the back and front end.|
-|[Alexander Craggs](popey456963.github.io)|Building the URL shortener backend.|
+|[Alexander Craggs](http://popey456963.github.io)|Building the URL shortener backend.|
 
 Unfortunately, half of our team wasn't around, so we had to all pile in with jobs that we'd never done before.  It meant we learnt a lot about what other members of our team did and was a great experience.
 
 #### **Domain Setup**
 
-The first decision when getting a domain is, of course, choosing the name.  There are [so](http://www.panabee.com/) [many](http://www.leandomainsearch.com/) [domain](http://www.nameboy.com/) [name](http://www.bustaname.com/word_maker) [choosers](http://www.domainhole.com/generator/) out there that it can be intimidating to get help, but I have to say I recommend using [Name Mesh](http://www.namemesh.com/), it has a nice design and assuming you already have a brand name, does a really nice job.  In the end, it gave us the domain name of "[Subr.pw](subr.pw)", which we liked a lot, mainly because:
+The first decision when getting a domain is, of course, choosing the name.  There are [so](http://www.panabee.com/) [many](http://www.leandomainsearch.com/) [domain](http://www.nameboy.com/) [name](http://www.bustaname.com/word_maker) [choosers](http://www.domainhole.com/generator/) out there that it can be intimidating to get help, but I have to say I recommend using [Name Mesh](http://www.namemesh.com/), it has a nice design and assuming you already have a brand name, does a really nice job.  In the end, it gave us the domain name of "[Subr.pw](http://subr.pw)", which we liked a lot, mainly because:
 
  - It was short, with only six characters.  As we were going to use this for a URL shortening service, it had to be small.
  - It didnt cost very much.  It was 60p for an entire year, which didn't put a dent in our tiny pile of funds.
  - It was related to Subject Refresh and could be seen to have similarities.  You don't want to dillute your brand with severely different domain names.
 
-We actually bought our domain name from [Namecheap](namecheap.com), mostly because their customer service is incredible.  They always respond to our tickets within hours and when compared to companies like [GoDaddy](godaddy.com), they're better in just about every way.  On that note, we recommend you don't go with GoDaddy, although their prices are great, if you have *any* problem with their service you are not going to get any help from them.  We had tickets open for weeks with no reply, which was why we swapped to a better domain name provider.
+We actually bought our domain name from [Namecheap](http://namecheap.com), mostly because their customer service is incredible.  They always respond to our tickets within hours and when compared to companies like [GoDaddy](http://godaddy.com), they're better in just about every way.  On that note, we recommend you don't go with GoDaddy, although their prices are great, if you have *any* problem with their service you are not going to get any help from them.  We had tickets open for weeks with no reply, which was why we swapped to a better domain name provider.
 
 #### **Server Configuration**
 
-We already have a server that we use for a lot of [Subject Refresh's](subjectrefresh.info) projects.  As we're on rather a tight budget, we went with [Amazon Web Services](https://aws.amazon.com/websites/) as they provide an unbeatable price for the services they provide.  They also provide a surprisingly useful trial service, which allows you to get to grips with their tools.
+We already have a server that we use for a lot of [Subject Refresh's](http://subjectrefresh.info) projects.  As we're on rather a tight budget, we went with [Amazon Web Services](https://aws.amazon.com/websites/) as they provide an unbeatable price for the services they provide.  They also provide a surprisingly useful trial service, which allows you to get to grips with their tools.
 
 #### **The Back End**
 
@@ -140,7 +140,7 @@ Our front-end was our most contentious point.  None of our team are particuarly 
 
  - *[Materialize](http://materializecss.com/)* is a versatile Material Design framework that has a sleek layout and works on almost any website.  Unfortunately though, it has rather a large footprint as it supports almost every HTML tag there is.
  - *[Skeleton](http://getskeleton.com/)* is a tiny responsive boilerplate library for making very simplistic/minimalistic sites.  It is very tiny (only ~400 lines), however it is a bit bland for what we wanted to do with it.
- - *Custom Design* was the only way for us to go.  For such a simple website, we figured it couldn't be that hard.  [Codepen.io](codepen.io) is a great source of such designs, provided you keep it Open Source and attribute the owner.
+ - *Custom Design* was the only way for us to go.  For such a simple website, we figured it couldn't be that hard.  [Codepen.io](http://codepen.io) is a great source of such designs, provided you keep it Open Source and attribute the owner.
 
  So, we looked around, and we saw a nice simple design.  It wasn't anything special, but we wanted to get this project working in as short a time as possible.  
 
