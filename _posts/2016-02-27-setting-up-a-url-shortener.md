@@ -13,7 +13,7 @@ We managed to buy the domain, setup the server and host our website in *under an
 |Team Member|Main Job|
 |---|---|
 |[Miles Budden](http://milesbudden.com)|Setting up the domain name.|
-|[Finnian Andersson](http://finnian.io/)|Setting up the server and connecting the back and front end.|
+|[Finnian Anderson](http://finnian.io/)|Setting up the server and connecting the back and front end.|
 |[Alexander Craggs](http://popey456963.github.io)|Building the URL shortener backend.|
 
 Unfortunately, half of our team wasn't around, so we had to all pile in with jobs that we'd never done before.  It meant we learnt a lot about what other members of our team did and was a great experience.
