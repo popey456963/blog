@@ -10,16 +10,17 @@ Images are displayed on a computer monitor as bitmaps. A bitmap is a grid of pix
 
 > **For example:**
 > If 1 bit is used to represent the colour of a pixel, it can have 2 values - black and white (colours may vary from monitor to monitor). This is properly described as a **monochrome** although monochrome is usually used to describe a grey scale picture. 
-Grey scale
+
+#### **Grey scale**
 
 Uses 8 bits to give 256 colours of grey, from black (0) to white (255)
 
-Colour
+#### **Colour**
 
 Normally uses 24 bits to represent levels of red, green and blue:
 $$\color{red}{\overset{11111111}{\mathsf{Red}}}\ \ \color{green}{\overset{11111111}{\mathsf{Green}}}\ \ \color{Blue}{\overset{11111111}{\mathsf{Blue}}}$$
-These values are often rtepresented as decimal or hex values such as `255,0,255` or `#FF00FF`.
-24 bit colour allows for up to $256\times256\times256$. ie $16,777,216$ different colours.
+These values are often represented as decimal or hex values such as `255,0,255` or `#FF00FF`.
+24 bit colour allows for up to $$256\times256\times256$$. ie $$16,777,216$$ different colours.
 The number of bits used to represent colours in bit maps are called the **bit depth**. 
 
 > **Note about printing**
