@@ -187,3 +187,13 @@ $(function() {
   }
 });
 ```
+
+#### **Continuation**
+
+Evidently, there is much to improve on a project we made in a single hour.  It's been two days, and so far we've improved:
+
+ - Error Handling and URL Validation
+ - Creating our own Shortening Engine
+ - Statistics on Redirects
+
+You can see all the code [here](http://github.com/subjectrefresh/shortener) and the actual site [here](http://subr.pw).
