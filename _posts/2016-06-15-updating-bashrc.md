@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Updating ~/.bashrc"
+title:  "Updating .bashrc"
 date:   2016/06/17 16:47
 categories: [Bash, Linux]
 permalink: /archive/updating-bashrc
